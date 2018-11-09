@@ -1,2 +1,3 @@
 # ldcromartie.github.io
-a website for github pages
+created a new repository, didnt set up my old one correctly
+
