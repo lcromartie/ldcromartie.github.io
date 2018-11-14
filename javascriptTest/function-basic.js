@@ -18,8 +18,9 @@ window.onload = () => {
     }
 
         
-        functionCalls.onclick = simpleFunction;
-            
-            }
+        functionCalls.onclick = () => {
+           const simpleFunction = document.getElementById('simple-function');
+           simpleFunction.textContent = "functions should consist of statements designed to perform a single task"
+        }
 }
-
+}
