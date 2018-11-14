@@ -1,6 +1,7 @@
 window.onload = () => {
-    const simpleFunction = document.getElementById('simple-function')
-    const functionCalls = document.getElementById('function-calls');
+    const simpleFunction = document.getElementById('simple-function');
+    const functionParameters = document.getElementById('function-parameters');
+    const functionReturn = document.getElementById('function-return');
 
     function simpleFunction() {
         console.log('simple-function');
@@ -13,7 +14,7 @@ window.onload = () => {
     
     function functionReturn() {
         console.log('function-returns');
-        functionReturns.textContent = "Many functions return values";
+        functionReturn.textContent = "Many functions return values";
     }
 
         
