@@ -1,12 +1,12 @@
 header{
-
+border: 8px solid black;
 }
 nav{
-
+border: 8px solid white;
 }
 main{
-
+background-color: blue;
 }
 footer{
-    
+background-color: aliceblue;
 }
