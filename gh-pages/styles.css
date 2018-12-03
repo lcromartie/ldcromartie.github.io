@@ -1,8 +1,12 @@
 header{
 border: 8px solid black;
 }
+body{
+    background-color: steelblue;
+}
 nav{
 border: 8px solid white;
+font: white;
 }
 main{
 background-color: blue;
